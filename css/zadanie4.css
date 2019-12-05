@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto:400,700&display=swap&subset=latin-ext');
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Oswald', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.wrapper {
+    background-color: #ddd;
+}
+
+/* NAWIGACJA */
+nav {
+    max-width: 1440px;
+    min-width: 985px;
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: right;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 40px;
+    padding: 10px;
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #222;
+}
+
+nav a.rezerwacja {
+    margin-right: 150px;
+    border: 2px solid #222;
+    padding: 10px 30px;
+    letter-spacing: 2px;
+    font-size: 2.2rem;
+    transition: 0.4s;
+
+}
+
+nav a:hover {
+    border-bottom: 2px solid #222;
+}
+
+nav a.rezerwacja:hover {
+    background-color: #5F92FF;
+    color: #eee;
+    border-color: #5F92FF;
+}
+
+/* HEADER */
+header {
+    background-image: url('../images/warsztat2.jpg');
+    height: 40vh;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    line-height: 40vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* MAIN */
+main {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 40px 30px 20px;
+    background-color: #aaa;
+    font-size: 0;
+}
+
+.description {
+    font-size: 2.2rem;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+section {
+    width: 100%;
+}
+div.feature {
+    display: inline-block;
+    width: 33.33%;
+    padding: 20px;
+}
+div.image img {
+    width: 100%;
+    opacity: 0.7;
+}
+div.image img:hover {
+    opacity: 1;
+}
+div.feature h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 15px 0;
+    color: #eee;
+}
+
+/* FOOTER */
+footer {
+    background-color: #000;
+}
+
+footer p {
+    min-width: 590px;
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 15px 10px;
+}
